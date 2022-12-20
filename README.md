@@ -10,4 +10,10 @@
 
 - Sometime we got errors like: `E0373` we can use command to see more detail: `rustc --explain E0373`
 
-- 
+- Rust doesn't protect you from logical errors. It ensure that your data is never able to be written in two places at the same time. It does not ensure that your program is free from all security issues.
+
+- [Rust at npm](https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf) :D
+
+- Fun fact current (12/2022) rust-lang.org hosted on heroku :D
+
+- ![rust-lang-error](./rust-lang-error.png)

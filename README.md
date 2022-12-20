@@ -7,3 +7,7 @@
 
 ## Some note ?
 - Strings in Rust are able to include a wide range of characters
+
+- Sometime we got errors like: `E0373` we can use command to see more detail: `rustc --explain E0373`
+
+- 

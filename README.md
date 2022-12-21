@@ -17,3 +17,5 @@
 - Fun fact current (12/2022) rust-lang.org hosted on heroku :D
 
 - ![rust-lang-error](./rust-lang-error.png)
+
+- Dont push ';' at the end of expression if you want return it's result. This changes the semantics, returning () (unit) rather than i32. See `c2-first-steps` to understand.

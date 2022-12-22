@@ -19,3 +19,8 @@
 - ![rust-lang-error](./rust-lang-error.png)
 
 - Dont push ';' at the end of expression if you want return it's result. This changes the semantics, returning () (unit) rather than i32. See `c2-first-steps` to understand.
+
+- It's safest to cast the smaller type to a larger one. Use cast with caution: 300_i32 as i8 will return 44.
+
+- 
+

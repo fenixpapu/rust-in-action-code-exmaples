@@ -30,3 +30,6 @@
   | for item in &collection | for item in collection.iter() | Read-Only |
   | for item in &mut collection | for item in collection.iter_mut() | Read-Write |
 
+- Rust has no concepts of `truthy` and `falsey`. The only value can used for `true` is `true` and for `false`, use `false`. -> Free comment: I like this feature :D.
+
+- 

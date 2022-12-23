@@ -32,4 +32,8 @@
 
 - Rust has no concepts of `truthy` and `falsey`. The only value can used for `true` is `true` and for `false`, use `false`. -> Free comment: I like this feature :D.
 
-- 
+- Some principles in Rust:
+  - Terms in lowercase (`i`, `j`) denote variables.
+  - Single uppercase letters(`T`) denote generic type variables.
+  - Terms beginning with uppercase (Add) are either `traits` or concrete types, such as `String` or `Duration`.
+  - Lables (`'a`) denote lifetime parameters.

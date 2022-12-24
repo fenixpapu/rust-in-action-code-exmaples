@@ -37,3 +37,5 @@
   - Single uppercase letters(`T`) denote generic type variables.
   - Terms beginning with uppercase (Add) are either `traits` or concrete types, such as `String` or `Duration`.
   - Lables (`'a`) denote lifetime parameters.
+
+- To install cargo doc locally( sometime helpful). Run command `cargo doc` and `cargo doc --open` to open in web browser.

@@ -39,3 +39,5 @@
   - Lables (`'a`) denote lifetime parameters.
 
 - To install cargo doc locally( sometime helpful). Run command `cargo doc` and `cargo doc --open` to open in web browser. Or Rust doc with `rustup doc`.
+
+- By convention, global variables use `ALL CAPS`.

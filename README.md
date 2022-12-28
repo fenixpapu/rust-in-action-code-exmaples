@@ -55,4 +55,5 @@
 
 - Làm sao tìm được nhanh nhất 2 số có cùng biểu diễn nhị phân nhưng khác kiểu dữ liệu. Ví dụ 1 số kiểu unsigned int và 1 số kiểu int: Lấy đại 1 số thuộc unsigned int rồi chuyển về nhị phân và quy đổi nhị phân đó theo kiểu mới ( int :D). Check ví dụ: `c5-int-vs-int` chứa 1 cặp như vậy.
 
+- `impl From<T> for U` explain how to convert from type `T` to type `U`.
 

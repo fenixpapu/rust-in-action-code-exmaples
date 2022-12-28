@@ -41,3 +41,10 @@
 - To install cargo doc locally( sometime helpful). Run command `cargo doc` and `cargo doc --open` to open in web browser. Or Rust doc with `rustup doc`.
 
 - By convention, global variables use `ALL CAPS`.
+
+- Four general strategies can help with ownership issues:
+  - Use references where full ownership is not required:
+    - For read-only use `&T` for read-write use `&mut T`.
+  - Duplicate the value.
+  - Refactor code to reduce the number of long-lived objects.
+  - Wrap your data in a type designed to assist with movement issues.

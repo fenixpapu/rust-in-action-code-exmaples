@@ -48,3 +48,5 @@
   - Duplicate the value.
   - Refactor code to reduce the number of long-lived objects.
   - Wrap your data in a type designed to assist with movement issues.
+
+- Rust difference `Copy` and `Clone` , the reason why copy is faster than clone. [Here](https://github.com/rust-lang/rust/blob/2e6eaceedeeda764056eb0e2134735793533770d/src/libcore/marker.rs#L272)

@@ -52,3 +52,7 @@
 - Rust difference `Copy` and `Clone` , the reason why copy is faster than clone. [Here](https://github.com/rust-lang/rust/blob/2e6eaceedeeda764056eb0e2134735793533770d/src/libcore/marker.rs#L272)
 
 - `std::rc::Rc` -> `Rc<T>` reads: `R. C. of T` and stands for `a reference-counted value of type T`.
+
+- Làm sao tìm được nhanh nhất 2 số có cùng biểu diễn nhị phân nhưng khác kiểu dữ liệu. Ví dụ 1 số kiểu unsigned int và 1 số kiểu int: Lấy đại 1 số thuộc unsigned int rồi chuyển về nhị phân và quy đổi nhị phân đó theo kiểu mới ( int :D). Check ví dụ: `c5-int-vs-int` chứa 1 cặp như vậy.
+
+
